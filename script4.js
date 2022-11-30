@@ -42,10 +42,8 @@ let city = "udaipur"
 //         console.log('incorrect city')
 // }
 
-
 //Truthy values ---   true , 8 == 8 , 'A' , "pune" , "a123",-99,3 ,34.7
-// Falsy values --- 0 , "", null , undefined , NaN , 7 == 8 
-
+// Falsy values --- 0 , "", null , undefined , NaN , 7 == 8  , false
 
 if(false){
     console.log('hello')

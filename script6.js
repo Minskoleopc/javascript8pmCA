@@ -71,27 +71,27 @@ else {
 
 // Loops (for loop and while loop)
 
-console.log(1)
-console.log(2)
-console.log(3)
-console.log(4)
-console.log(5)
-console.log(6)
-console.log(7)
-console.log(8)
-console.log(9)
-console.log(10)
+// console.log(1)
+// console.log(2)
+// console.log(3)
+// console.log(4)
+// console.log(5)
+// console.log(6)
+// console.log(7)
+// console.log(8)
+// console.log(9)
+// console.log(10)
 
-// for loop
+// // for loop
 
-// for(intialization , conditionCheck ; incrementDecrement){
-//     // statements
+// // for(intialization , conditionCheck ; incrementDecrement){
+// //     // statements
+// // }
+
+// for(let i = 0 ;  i < 5 ; i++){ // 1 // 2 // 3 // 4 // 5
+//     console.log(i) // 0 ,1 , 2 , 3 , 4
 // }
 
-for(let i = 0 ;  i < 5 ; i++){ // 1 // 2 // 3 // 4 // 5
-    console.log(i) // 0 ,1 , 2 , 3 , 4
-}
-
-for(let i = 1 ; i <=5 ; i++){ // 2 // 3 // 4 // 5 // 6
-    console.log(i) //1 , 2 , 3 , 4 5
-}
+// for(let i = 1 ; i <=5 ; i++){ // 2 // 3 // 4 // 5 // 6
+//     console.log(i) //1 , 2 , 3 , 4 5
+// }

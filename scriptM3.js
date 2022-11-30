@@ -75,11 +75,11 @@ console.log(7 == 7 || 8 != 8) // True
 console.log(7 != 7 || 8 != 8) // False
 
 
-
 // Not!
-
 // True  -- False
 // False -- True
-
 console.log(!8 === 8)
 console.log(!8 != '8')
+
+// 8:30 am 
+// 8:00 pm
