@@ -203,17 +203,109 @@ console.log(q55)
 
 
 
+// join()
 
+let info = ["chinmay","deshpande",7709192441]
+let q21 = info.join('-') // "chinmay-deshpande-7709192441"
+let q222 = info.join('@')
+let q223 = info.join('&')
+let q224 = info.join(' ')
+console.log(q21)
+console.log(typeof q21)
+console.log(q222)
+console.log(q223)
+console.log(q224)
 
+// includes()
+let city = ["pune","mumbai","banglore","kolkata","chennai"]
+let q225 = city.includes('Pune')
+console.log(q225)
 
+// sort()
+let q226 = city.sort()
+console.log(q226)
 
+// reverse()
+let q227 = city.reverse()
+console.log(q227)
+// at
+//   0          1         2           3         4 
+//[ 'pune', 'mumbai', 'kolkata', 'chennai', 'banglore' ]
+let q228 = city.at(2)
+console.log(q228)
 
+// indexOf()
+let q229 = city.indexOf('chennai')
+let q230 = city.indexOf('chenna')
+console.log(q229)
+console.log(q230)
 
+//---------------------------------------------------------------------
+//              0         1         2      3       4
+let names2 = ["poorva","sameer","sanket","sham","satish"]
+names2.push("pooja")
+names2.unshift("pooja")
+names2.pop()
+names2.shift()
 
+let numBa = [11,33,44,55,66]
+numBa.map(function(el,index,arr){
+    return el + 2
+})
+numBa.filter(function(el,index,arr){
+    return el > 50
+})
+numBa.reduce(function(acc,el,index,arr){
+    return el + acc
+},0)
 
+numBa.forEach(function(el,index,arr){
+    console.log(el * 2)
+})
 
+numBa.find(function(el,index,arr){
+    return el > 50
+})
 
+numBa.findIndex(function(el,index,arr){
+    return el > 50
+})
 
+// [11,33,44,55,66]
+numBa.every(function(el,index,arr){
+    return el > 80
+})
+numBa.some(function(el,index,arr){
+    return el > 60
+})
+
+// map() , filter() , some() , every() , find() , findIndex()
+// reduce() , forEach()
+
+//            0  1 2   3  4  5
+let numBaa =[11,22,33,44,55,66] 
+//           -6 -5 -4 -3 -2  -1
+
+//numBaa.slice(startIndex,endIndex)
+// numBaa.slice(1)
+// numBaa.slice(-5)
+// numBaa.slice(1,5)
+
+//numBaa.splice(2,1)
+//numBaa.splice(2,2)
+//numBaa.splice(3,2,77,99)
+
+let a11 = [11,22,33]
+let a22 = [88,98,99]
+let q1332 = a11.concat(a22)
+console.log(q1332)
+
+let a12 = [[2,3,4],[5,6,7]]
+a12.flat(a12)
+
+let a13 = [44,55,66,677,88,999]
+a13.fill(undefined,1)
+a13.fill(undefined,1,4)
 
 
 
