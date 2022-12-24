@@ -47,7 +47,6 @@ students.forEach(function(el){
 })
 
 //average age of all students
-
 let h = [1,2,3]
 let b1 = students.reduce(function(acc,el){
     return el.age + acc
