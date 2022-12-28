@@ -2,7 +2,7 @@ let a = "chinmay"
 console.log(a)
 let b = 'shirish'
 console.log(b)
-let c  = `deshpande`
+let c = `deshpande`
 console.log(c)
 
 // number + number ===> number 
@@ -44,7 +44,7 @@ console.log(city[0])
 console.log(city.length)
 
 
-for(let i = 0 ; i < 4 ;i++){ //1 // 2 // 4 // 4
+for (let i = 0; i < 4; i++) { //1 // 2 // 4 // 4
     //console.log(i) // 0 , 1 , 2, 3
     console.log(city[i])
 }
@@ -55,7 +55,7 @@ for(let i = 0 ; i < 4 ;i++){ //1 // 2 // 4 // 4
 
 let city2 = "nagpur"
 
-for(let i = 0 ; i < city2.length ; i++){
+for (let i = 0; i < city2.length; i++) {
     //console.log(i)
     console.log(city2[i])
 }
@@ -66,21 +66,14 @@ for(let i = 0 ; i < city2.length ; i++){
 
 let city3 = "mumbai"
 console.log(city3.length)
-
 // Methods
-
 // toUpperCase()
-
 let city4 = "Bhopal"
-let c4  = city4.toUpperCase()
+let c4 = city4.toUpperCase()
 console.log(c4)
-
 // toLowerCase()
-
-let c5  = city4.toLowerCase()
+let c5 = city4.toLowerCase()
 console.log(c5)
-
-
 //indexOF()
 
 // 0 1 2 3 4 5
@@ -88,7 +81,7 @@ console.log(c5)
 let city6 = "wardha"
 let c6 = city6.indexOf('d')
 console.log(c6)
-let c7  = city.indexOf('H')
+let c7 = city.indexOf('H')
 console.log(c7)
 
 //includes()
@@ -98,12 +91,14 @@ console.log(c8)
 // startsWith()
 let city8 = "indore"
 let c9 = city8.startsWith('i')
-let c10 = city8.endsWith('re')
 console.log(c9)
+// endsWith()
+let c10 = city8.endsWith('re')
 console.log(c10)
 
 
-// endsWith()
+// ------------------------------------------>
+
 
 
 
