@@ -124,7 +124,26 @@ console.log(city11.slice(-10,-2))
 console.log(city11.slice(-10,8))
 console.log(city11.slice(-1,-7))
 
+
+
 // regular expression
+
+
+// let and const 
+// arithemtic 
+// functions 
+// comparison operators 
+// logical operatorsm
+// conditional statements  (switch case)
+// loop s
+// 
+
+
+
+
+
+
+
 
 
 
