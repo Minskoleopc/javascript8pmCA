@@ -1,0 +1,21 @@
+h1 {
+    color:green
+}
+
+p {
+    color:blue
+}
+
+.fruit {
+    color:red;
+    background-color:yellow;
+}
+
+.vegetable{
+    color:green;
+    background-color:red;
+}
+
+#ty {
+   color:blueviolet 
+}
