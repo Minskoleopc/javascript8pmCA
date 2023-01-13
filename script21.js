@@ -51,7 +51,13 @@ let mapB = new Map([
 console.log(mapB)
 let a = mapB.has(1)
 console.log(a)
-
 mapB.forEach(function(el,key){
     console.log(el,key)
 })
+// Map ---- 2 ways blank ,values
+// propeties and method
+// size
+// clear() , delete(),has(),set(),get(),has(),forEach() 
+
+
+

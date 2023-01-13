@@ -68,7 +68,6 @@ console.log(above40)
 
 let marks = [11,22,33] // 66
 let total = 0
-
 for(let i = 0 ; i <marks.length ; i++){
     //console.log(i)
     //console.log(marks[i])
@@ -82,6 +81,7 @@ for(let i = 0 ; i <marks.length ; i++){
 console.log(total)
 
 
+// 9 am 
 
 
 

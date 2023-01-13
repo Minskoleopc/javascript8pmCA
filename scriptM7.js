@@ -94,7 +94,6 @@
 // }
 
 
-
 // intialization 
 // while(condition){
 //     // statements
@@ -119,9 +118,7 @@ while(i3 <= 20){
     i3 = i3 + 2
 }
 
-
 // break statement with while loop
-
 let i4 = 1 
 while(i4 <= 5){
     if(i4 == 3){
@@ -131,7 +128,6 @@ while(i4 <= 5){
 
     i4 ++ // 2 // 3
 }
-
 
 // continue with while 
 let i5 = 1

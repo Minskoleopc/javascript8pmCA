@@ -135,8 +135,14 @@ console.log(city11.slice(-1,-7))
 // comparison operators 
 // logical operatorsm
 // conditional statements  (switch case)
-// loop s
-// 
+// loops (continue and break)
+// array 
+// objects
+// objects and array combination
+// string 
+// user defined data type
+// set()
+// map()
 
 
 

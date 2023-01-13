@@ -99,7 +99,8 @@
 // console.log(ag2)
 
 
-
+//##########################################################
+// Destructure and Destructure
 // program 1
 
 let names = ["chinmay","poorva","sarika","ram"]
@@ -178,14 +179,13 @@ let students = {
         age:33
     }
 }
+
+// program 6
 let {studentOne:{fullName:fn,age:a1},studentTwo:{fullName:fn2,age:a2}} = students
 console.log(fn2)
 console.log(a2)
 
-// program 6
-
-
-
+// program 7
 let studentss = [
     {
         firstName:"chinmay deshpande",

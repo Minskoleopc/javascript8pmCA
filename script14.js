@@ -54,3 +54,13 @@ let b1 = students.reduce(function(acc,el){
 console.log(b1/students.length)
 
 
+
+let i = [33,44,-44,55,-66,66,77,55,44,55,66]
+
+
+
+
+
+
+
+

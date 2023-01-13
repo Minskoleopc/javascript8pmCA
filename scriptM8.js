@@ -1,5 +1,3 @@
-
-
 // let x = 10
 // console.log(x)
 
@@ -171,6 +169,11 @@ let q4 = animals.shift()
 console.log(q4)
 console.log(animals)
 
+
+// push("p")  -- new lenth
+// unshift('p') -- new lenth 
+// pop() - last element
+// shift() - first element
 
 
 

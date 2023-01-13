@@ -39,3 +39,4 @@ console.log(setB.entries())
 console.log(setB.keys())
 console.log(setB.values())
 
+//remaning methods

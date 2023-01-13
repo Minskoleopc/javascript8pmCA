@@ -67,8 +67,6 @@ delete info3.city
 delete info3['lang']
 console.log(info3)
 
-
-
 let vehicle = {
     color:"red",
     type:"sedane"
@@ -96,5 +94,10 @@ let animal = {
     color:"red",
     eyes:2,
     legs:4
-
 }
+console.log(animal.color)
+animal.color = "blue"
+animal.legs = 8
+animal.city = "kokan"
+delete animal.city
+

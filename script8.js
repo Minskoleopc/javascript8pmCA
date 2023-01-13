@@ -108,18 +108,14 @@ while(i6 <= 5){
 
 
 // program  6
-
-
 let i7 = 1
-
 while(i7 <= 5){
-
     if(i7 == 2){
         i7 ++ // 3
         continue;
     }
-    console.log(i7)  // 1
-    i7 ++  // 2
+    console.log(i7)  // 1 , 3 , 4 , 5
+    i7 ++  // 2 // 4 // 5 // 6
 }
 
 
