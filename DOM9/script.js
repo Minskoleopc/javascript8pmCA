@@ -48,10 +48,6 @@ ulList.addEventListener('click', function (event) {
 
 
 
-
-
-
-
 buttonA.addEventListener('click', function () {
     let text = inputText.value
     let newLi = document.createElement('li')
