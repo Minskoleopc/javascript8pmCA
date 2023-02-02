@@ -60,7 +60,6 @@ mohan.firstName = "ninad"
 mohan.city = "nagpur"
 
 // Object.create()
-
 let ramB = Object.create({})
 console.log(ramB)
 ramB.firstName = "ram"
