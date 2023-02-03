@@ -136,3 +136,4 @@ let rrr = Object.create(obj)
 console.log(rrr)
 rrr.init("rr","rao",33,44)
 rrr.display()
+// statement
