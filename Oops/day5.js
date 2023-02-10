@@ -1,10 +1,6 @@
-
-
 class GrandFather {
-
     firstName = "manohar"
     lastName = "deshpande"
-
     displayGName(){
         console.log(this.firstName + this.lastName)
     }
@@ -20,9 +16,7 @@ class Father extends GrandFather{
 }
 
 class Son extends Father {
-
     sname = "chinmay"
-
     displaySName(){
         console.log(this.sname + this.lastName)
     }
